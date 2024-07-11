@@ -1,0 +1,6 @@
+use auxiliary/scanner/smb/smb_login
+set RHOST file:/home/kali/scripting/server/smb_port.txt
+set SMBPass guest
+set SMBUser guest
+run
+exit -y

@@ -1,0 +1,4 @@
+use auxiliary/scanner/ssh/ssh_version
+set RHOSTS file:/home/kali/scripting/server/ssh_port.txt
+run
+exit -y

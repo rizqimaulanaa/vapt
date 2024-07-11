@@ -1,0 +1,4 @@
+use auxiliary/scanner/mysql/mysql_version
+set RHOSTS file:/home/kali/scripting/db/mysql_port.txt
+run
+exit -y

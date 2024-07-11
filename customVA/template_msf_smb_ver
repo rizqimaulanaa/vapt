@@ -1,0 +1,4 @@
+use auxiliary/scanner/smb/smb_version
+set RHOSTS file:/home/kali/scripting/server/smb_port.txt
+run
+exit -y

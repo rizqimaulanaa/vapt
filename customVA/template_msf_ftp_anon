@@ -1,0 +1,4 @@
+use auxiliary/scanner/ftp/anonymous
+set RHOSTS file:/home/kali/scripting/server/ftp_port.txt
+run
+exit

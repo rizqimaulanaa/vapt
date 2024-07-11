@@ -1,0 +1,4 @@
+use auxiliary/scanner/mssql/mssql_login
+set RHOSTS file:/home/kali/scripting/db/mssql_port.txt
+run
+exit -y

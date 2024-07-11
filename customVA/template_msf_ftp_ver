@@ -1,0 +1,4 @@
+use auxiliary/scanner/ftp/ftp_version
+set RHOSTS file:/home/kali/scripting/server/ftp_port.txt
+run
+exit -y

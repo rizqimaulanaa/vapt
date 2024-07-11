@@ -1,0 +1,4 @@
+use auxiliary/scanner/oracle/tnslsnr_version
+set RHOSTS file:/home/kali/scripting/db/oracle_port.txt
+run
+exit -y
