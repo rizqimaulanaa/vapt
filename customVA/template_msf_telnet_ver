@@ -1,0 +1,4 @@
+use auxiliary/scanner/telnet/telnet_version
+set RHOSTS file:/home/kali/simulasi/vapt-main/server/telnet_port.txt
+run
+exit -y
